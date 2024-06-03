@@ -1,0 +1,67 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header h1{
+    margin: 0;
+}
+
+header a{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 1rem;
+}
+
+section {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2{
+    margin-bottom: 1rem;
+}
+
+
+.portfolio-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.portfolio-item{
+    flex: 1 1 30%;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0 0 10px red;
+}
+
+footer{
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
